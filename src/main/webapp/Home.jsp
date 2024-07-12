@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width-device-width", initial-scale=1">
+    <title>Software</title>
+
+    <link rel="stylesheet" type = "text/css" href="style.css">
+
+</head>
+<body>
+<div class = "center">
+    <h1>Stock data entry</h1>
+    <div class="form">
+        <input type = "text" class="textfield" placeholder="Stock ID">
+        <input type = "text" class="textfield" placeholder="Stock Name">
+        <input type = "text" class="textfield" placeholder="Stock code">
+        <select class="textfield">
+            <option>Index/Stock</option>
+            <option>Index</option>
+            <option>Stock</option>
+        </select>
+
+        <input type="submit" value = "search" name = "" class = "button">
+        <input type="submit" value = "Save" name = "" class = "button" style="background:green;">
+        <input type="submit" value = "Modify" name = "" class = "button"style="background:orange;">
+        <input type="submit" value = "Delete" name = "" class = "button"style="background:red;">
+
+
+    </div>
+</div>
+</body>
+</html>
+
+<?php
+include("connection.java");
+?>
